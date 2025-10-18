@@ -45,23 +45,41 @@ The original extension contained malicious code that was:
 4. Select this folder
 5. Extension will show floating button on Stripe pages
 
-## 🎮 Usage:
+## 🔧 Installation
 
-### Keyboard Shortcuts:
-- **Ctrl + X** (or your custom key) - Generate and fill card details
-- **Ctrl + C** (or your custom key) - Clear all form fields
+### Step 1: Download the Extension
+1. Download or clone this repository to your computer
+2. Extract the files to a folder (if downloaded as ZIP)
 
-### Interface:
-- **Floating Button** - Click to generate card details
-- **Popup** - Configure settings and BINs
-- **Options Page** - Advanced settings
+### Step 2: Enable Developer Mode
+1. Open Google Chrome browser
+2. Navigate to `chrome://extensions/`
+3. Toggle **"Developer mode"** in the top-right corner
 
-### Features:
-- **Test Card Generation** - Creates valid test cards with Luhn algorithm
-- **Autofill Forms** - Automatically fills all payment fields
-- **Auto Submit** - Automatically clicks submit button
-- **Multiple BINs** - Support for two different BIN numbers
-- **Custom Keys** - Configure your own keyboard shortcuts
+### Step 3: Load the Extension
+1. Click **"Load unpacked"** button
+2. Select the folder containing this extension
+3. The extension should now appear in your extensions list
+
+### Step 4: Verify Installation
+- Look for the extension icon in your Chrome toolbar
+- The extension will activate automatically on Stripe payment pages
+
+---
+
+## ⚙️ First Setup
+
+### Accessing Settings
+
+**Method 1: Extension Popup**
+1. Click the extension icon in Chrome toolbar
+2. Configure basic settings in the popup window
+
+**Method 2: Options Page**
+1. Right-click the extension icon
+2. Select **"Options"**
+3. Configure advanced settings
+
 
 ## ⚠️ Original Extension Warning:
 
