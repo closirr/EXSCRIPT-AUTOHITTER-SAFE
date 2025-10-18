@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Stripe Test Card Generator",
+  "description": "Educational tool for testing Stripe payments with safe test cards - FOR TESTING ONLY",
+  "version": "1.0",
+  "permissions": [
+      "storage",
+      "activeTab",
+      "tabs"
+  ],
+  "host_permissions": [
+      "https://checkout.stripe.com/*",
+      "https://*.stripe.com/*"
+  ],
+  "action": {
+      "default_popup": "popup.html"
+  },
+  "background": {
+      "service_worker": "background.js"
+  },
+  "content_scripts": [{
+      "matches": ["https://checkout.stripe.com/*", "https://*.stripe.com/*"],
+      "js": ["content.js"]
+  }],
+  "options_page": "options.html"
+}
